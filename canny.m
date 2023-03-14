@@ -122,3 +122,4 @@ edge_final = T_res;
 figure;
 imshow(edge_final,[]);
 title('final')
+imwrite(edge_final,"edge_detect_siuu.png")
